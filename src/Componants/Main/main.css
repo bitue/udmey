@@ -1,0 +1,9 @@
+.productContainer{
+    display: flex; 
+}
+.product{
+    width: 70%; 
+}
+.review{
+    width: 30%; 
+}
