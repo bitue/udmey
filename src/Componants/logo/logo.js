@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from "../../img/Udemy_logo.png"
+import logo from "../../img/Udemy_logo.png";
+
 
 
 const Logo = () => {
@@ -9,7 +10,7 @@ const Logo = () => {
     }
     return (
         <div style={{textAlign:"center"}}>
-            <img src={logo} style={style}/>
+            <img id="udmey" src={logo} style={style}/>
         </div>
     );
 };

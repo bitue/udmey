@@ -8,7 +8,7 @@ const Review = (props) => {
         
     }
     return (
-        <div>
+        <div className="review-des">
             <h3>Review Orders :{props.total.length} </h3>
             <ul>
                {props.total.map(ele=><li>{ele.name}</li>)}
